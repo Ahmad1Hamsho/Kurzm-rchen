@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Capriola|Rye&display=swap");
+
+body {
+  background-image: url(../img/mockaroon-4vqCFCoTKp0-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  font-family: "Rye";
+  text-align: center;
+  font-size: 10em;
+
+  color: #ccb378;
+  text-shadow: -5px -10px 4px #2e1b13;
+}
+
+section div p::first-letter {
+  font-size: 2em;
+  font-family: "Rye";
+}
+
+section {
+  text-shadow: -3px 4px 5px #dad0cc;
+  font-family: "Capriola";
+  height: 80vh;
+  overflow-y: auto;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 4vh;
+  background-color: #ccb37852;
+  color: #2e1b13;
+  font-size: 4em;
+  text-align: left;
+}
+
+img {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+section::-webkit-scrollbar {
+  display: none;
+}
+
+div {
+  padding: 1em;
+  padding-top: 1px;
+}
+
+section div p:not(:first-child) {
+  padding: 1px 1px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+section div p:last-child {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+section div p:nth-child(26) {
+  margin-top: 10px;
+  margin-left: 2em;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+footer p {
+  margin-left: 2vw;
+  font-family: "Capriola";
+  font-size: 32px;
+  display: block;
+  text-align: left;
+  color: #ccb378;
+  text-shadow: -3px -4px 2px #2e1b13;
+}
+
+footer p:first-child {
+  display: block;
+  font-family: "Capriola";
+  font-size: 32px;
+  text-align: left;
+  color: #ccb378;
+  text-shadow: -3px -4px 2px #2e1b13;
+}
+footer p:nth-child(3)::first-letter {
+  font-size: 40px;
+  font-family: "Rye";
+}
+
+footer p:nth-child(3) {
+  position: relative;
+  left: 12.5vw;
+  top: -4.5vw;
+}
+
+footer p:nth-child(2) {
+  margin-top: 10vh;
+  margin-left: 1vw;
+}
